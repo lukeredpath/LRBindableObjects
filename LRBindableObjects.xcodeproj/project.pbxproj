@@ -14,8 +14,12 @@
 		A357796013C1CEFB00FB8809 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A357795F13C1CEFB00FB8809 /* CoreGraphics.framework */; };
 		A357796313C1CEFB00FB8809 /* libLRBindableObjects.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A357794C13C1CEFB00FB8809 /* libLRBindableObjects.a */; };
 		A357796913C1CEFB00FB8809 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A357796713C1CEFB00FB8809 /* InfoPlist.strings */; };
-		A357796B13C1CEFB00FB8809 /* LRBindableObjectsTests.h in Resources */ = {isa = PBXBuildFile; fileRef = A357796A13C1CEFB00FB8809 /* LRBindableObjectsTests.h */; };
 		A357796D13C1CEFB00FB8809 /* LRBindableObjectsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A357796C13C1CEFB00FB8809 /* LRBindableObjectsTests.m */; };
+		A357798A13C1CFE800FB8809 /* SimpleObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A357798913C1CFE800FB8809 /* SimpleObject.m */; };
+		A357798F13C1D2E100FB8809 /* NSObject+LRBindableExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A357798C13C1D12500FB8809 /* NSObject+LRBindableExtensions.m */; };
+		A357799213C1D31100FB8809 /* LRObjectBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = A357799113C1D31100FB8809 /* LRObjectBinding.m */; };
+		A357799613C1D3EF00FB8809 /* NSObject+AssociatedObjects.h in Headers */ = {isa = PBXBuildFile; fileRef = A357799413C1D3EF00FB8809 /* NSObject+AssociatedObjects.h */; };
+		A357799713C1D3EF00FB8809 /* NSObject+AssociatedObjects.m in Sources */ = {isa = PBXBuildFile; fileRef = A357799513C1D3EF00FB8809 /* NSObject+AssociatedObjects.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,15 +35,23 @@
 /* Begin PBXFileReference section */
 		A357794C13C1CEFB00FB8809 /* libLRBindableObjects.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLRBindableObjects.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		A357794F13C1CEFB00FB8809 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		A357795313C1CEFB00FB8809 /* LRBindableObjects-Prefix.pch */ = {isa = PBXFileReference; path = "LRBindableObjects-Prefix.pch"; sourceTree = "<group>"; };
+		A357795313C1CEFB00FB8809 /* LRBindableObjects-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LRBindableObjects-Prefix.pch"; sourceTree = "<group>"; };
 		A357795913C1CEFB00FB8809 /* LRBindableObjectsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRBindableObjectsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A357795A13C1CEFB00FB8809 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		A357795C13C1CEFB00FB8809 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		A357795F13C1CEFB00FB8809 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		A357796613C1CEFB00FB8809 /* LRBindableObjectsTests-Info.plist */ = {isa = PBXFileReference; path = "LRBindableObjectsTests-Info.plist"; sourceTree = "<group>"; };
 		A357796813C1CEFB00FB8809 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		A357796A13C1CEFB00FB8809 /* LRBindableObjectsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRBindableObjectsTests.h; sourceTree = "<group>"; };
 		A357796C13C1CEFB00FB8809 /* LRBindableObjectsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRBindableObjectsTests.m; sourceTree = "<group>"; };
+		A357798613C1CF3B00FB8809 /* TestMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestMacros.h; sourceTree = "<group>"; };
+		A357798813C1CFE800FB8809 /* SimpleObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleObject.h; sourceTree = "<group>"; };
+		A357798913C1CFE800FB8809 /* SimpleObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleObject.m; sourceTree = "<group>"; };
+		A357798B13C1D12500FB8809 /* NSObject+LRBindableExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+LRBindableExtensions.h"; sourceTree = "<group>"; };
+		A357798C13C1D12500FB8809 /* NSObject+LRBindableExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LRBindableExtensions.m"; sourceTree = "<group>"; };
+		A357798E13C1D18F00FB8809 /* TestSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestSupport.h; sourceTree = "<group>"; };
+		A357799013C1D31100FB8809 /* LRObjectBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRObjectBinding.h; sourceTree = "<group>"; };
+		A357799113C1D31100FB8809 /* LRObjectBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LRObjectBinding.m; sourceTree = "<group>"; };
+		A357799413C1D3EF00FB8809 /* NSObject+AssociatedObjects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AssociatedObjects.h"; sourceTree = "<group>"; };
+		A357799513C1D3EF00FB8809 /* NSObject+AssociatedObjects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AssociatedObjects.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +111,12 @@
 		A357795113C1CEFB00FB8809 /* LRBindableObjects */ = {
 			isa = PBXGroup;
 			children = (
+				A357799313C1D3D300FB8809 /* Utilities */,
 				A357795213C1CEFB00FB8809 /* Supporting Files */,
+				A357798B13C1D12500FB8809 /* NSObject+LRBindableExtensions.h */,
+				A357798C13C1D12500FB8809 /* NSObject+LRBindableExtensions.m */,
+				A357799013C1D31100FB8809 /* LRObjectBinding.h */,
+				A357799113C1D31100FB8809 /* LRObjectBinding.m */,
 			);
 			path = LRBindableObjects;
 			sourceTree = "<group>";
@@ -115,7 +132,6 @@
 		A357796413C1CEFB00FB8809 /* LRBindableObjectsTests */ = {
 			isa = PBXGroup;
 			children = (
-				A357796A13C1CEFB00FB8809 /* LRBindableObjectsTests.h */,
 				A357796C13C1CEFB00FB8809 /* LRBindableObjectsTests.m */,
 				A357796513C1CEFB00FB8809 /* Supporting Files */,
 			);
@@ -125,10 +141,30 @@
 		A357796513C1CEFB00FB8809 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				A357796613C1CEFB00FB8809 /* LRBindableObjectsTests-Info.plist */,
+				A357798713C1CF6900FB8809 /* Classes */,
+				A357798613C1CF3B00FB8809 /* TestMacros.h */,
 				A357796713C1CEFB00FB8809 /* InfoPlist.strings */,
+				A357798E13C1D18F00FB8809 /* TestSupport.h */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A357798713C1CF6900FB8809 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A357798813C1CFE800FB8809 /* SimpleObject.h */,
+				A357798913C1CFE800FB8809 /* SimpleObject.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		A357799313C1D3D300FB8809 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A357799413C1D3EF00FB8809 /* NSObject+AssociatedObjects.h */,
+				A357799513C1D3EF00FB8809 /* NSObject+AssociatedObjects.m */,
+			);
+			name = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +174,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A357799613C1D3EF00FB8809 /* NSObject+AssociatedObjects.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +249,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A357796913C1CEFB00FB8809 /* InfoPlist.strings in Resources */,
-				A357796B13C1CEFB00FB8809 /* LRBindableObjectsTests.h in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A357798F13C1D2E100FB8809 /* NSObject+LRBindableExtensions.m in Sources */,
+				A357799713C1D3EF00FB8809 /* NSObject+AssociatedObjects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +285,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A357796D13C1CEFB00FB8809 /* LRBindableObjectsTests.m in Sources */,
+				A357798A13C1CFE800FB8809 /* SimpleObject.m in Sources */,
+				A357799213C1D31100FB8809 /* LRObjectBinding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +317,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_OBJCPP_ARC_ABI = NO;
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -301,7 +342,8 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_OBJCPP_ARC_ABI = NO;
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -347,7 +389,10 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LRBindableObjects/LRBindableObjects-Prefix.pch";
-				INFOPLIST_FILE = "LRBindableObjectsTests/LRBindableObjectsTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};
@@ -362,7 +407,10 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LRBindableObjects/LRBindableObjects-Prefix.pch";
-				INFOPLIST_FILE = "LRBindableObjectsTests/LRBindableObjectsTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = octest;
 			};

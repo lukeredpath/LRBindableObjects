@@ -6,27 +6,33 @@
 //  Copyright 2011 LJR Software Limited. All rights reserved.
 //
 
-#import "LRBindableObjectsTests.h"
+#import "TestSupport.h"
+#import "SimpleObject.h"
+#import "NSObject+LRBindableExtensions.h"
 
-@implementation LRBindableObjectsTests
+TEST_CASE(LRBindableObjectsTests)
 
-- (void)setUp
+- (void)testBindingPropertyOfOneObjectToAnotherUpdatesTargetObjectWhenSourceChanges
 {
-    [super setUp];
-    
-    // Set-up code here.
+  SimpleObject *objectOne = [SimpleObject new];
+  SimpleObject *objectTwo = [SimpleObject new];
+  
+  [objectOne bind:@"valueOne" toObject:objectTwo withKeyPath:@"valueTwo"];
+  [objectTwo setValueTwo:@"some value"];
+  
+  STAssertEqualObjects(@"some value", objectOne.valueOne, @"Bound value should match");
 }
 
-- (void)tearDown
+- (void)testBindingPropertyOfOneObjectToAnotherUpdatesSourceObjectWhenTargetChanges
 {
-    // Tear-down code here.
-    
-    [super tearDown];
+  SimpleObject *objectOne = [SimpleObject new];
+  SimpleObject *objectTwo = [SimpleObject new];
+  
+  [objectOne bind:@"valueOne" toObject:objectTwo withKeyPath:@"valueTwo"];
+  [objectOne setValueOne:@"some value"];
+  
+  STAssertEqualObjects(@"some value", objectTwo.valueTwo, @"Bound value should match");
 }
 
-- (void)testExample
-{
-    STFail(@"Unit tests are not implemented yet in LRBindableObjectsTests");
-}
 
-@end
+END_TEST_CASE
