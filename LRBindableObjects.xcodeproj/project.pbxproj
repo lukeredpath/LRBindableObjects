@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A357795013C1CEFB00FB8809 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A357794F13C1CEFB00FB8809 /* Foundation.framework */; };
+		A357795B13C1CEFB00FB8809 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A357795A13C1CEFB00FB8809 /* SenTestingKit.framework */; };
+		A357795D13C1CEFB00FB8809 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A357795C13C1CEFB00FB8809 /* UIKit.framework */; };
+		A357795E13C1CEFB00FB8809 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A357794F13C1CEFB00FB8809 /* Foundation.framework */; };
+		A357796013C1CEFB00FB8809 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A357795F13C1CEFB00FB8809 /* CoreGraphics.framework */; };
+		A357796313C1CEFB00FB8809 /* libLRBindableObjects.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A357794C13C1CEFB00FB8809 /* libLRBindableObjects.a */; };
+		A357796913C1CEFB00FB8809 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A357796713C1CEFB00FB8809 /* InfoPlist.strings */; };
+		A357796B13C1CEFB00FB8809 /* LRBindableObjectsTests.h in Resources */ = {isa = PBXBuildFile; fileRef = A357796A13C1CEFB00FB8809 /* LRBindableObjectsTests.h */; };
+		A357796D13C1CEFB00FB8809 /* LRBindableObjectsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A357796C13C1CEFB00FB8809 /* LRBindableObjectsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A357796113C1CEFB00FB8809 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A357794313C1CEFB00FB8809 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A357794B13C1CEFB00FB8809;
+			remoteInfo = LRBindableObjects;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A357794C13C1CEFB00FB8809 /* libLRBindableObjects.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLRBindableObjects.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A357794F13C1CEFB00FB8809 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A357795313C1CEFB00FB8809 /* LRBindableObjects-Prefix.pch */ = {isa = PBXFileReference; path = "LRBindableObjects-Prefix.pch"; sourceTree = "<group>"; };
+		A357795913C1CEFB00FB8809 /* LRBindableObjectsTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LRBindableObjectsTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A357795A13C1CEFB00FB8809 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A357795C13C1CEFB00FB8809 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		A357795F13C1CEFB00FB8809 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		A357796613C1CEFB00FB8809 /* LRBindableObjectsTests-Info.plist */ = {isa = PBXFileReference; path = "LRBindableObjectsTests-Info.plist"; sourceTree = "<group>"; };
+		A357796813C1CEFB00FB8809 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A357796A13C1CEFB00FB8809 /* LRBindableObjectsTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LRBindableObjectsTests.h; sourceTree = "<group>"; };
+		A357796C13C1CEFB00FB8809 /* LRBindableObjectsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LRBindableObjectsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A357794913C1CEFB00FB8809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A357795013C1CEFB00FB8809 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A357795513C1CEFB00FB8809 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A357795B13C1CEFB00FB8809 /* SenTestingKit.framework in Frameworks */,
+				A357795D13C1CEFB00FB8809 /* UIKit.framework in Frameworks */,
+				A357795E13C1CEFB00FB8809 /* Foundation.framework in Frameworks */,
+				A357796013C1CEFB00FB8809 /* CoreGraphics.framework in Frameworks */,
+				A357796313C1CEFB00FB8809 /* libLRBindableObjects.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A357794113C1CEFB00FB8809 = {
+			isa = PBXGroup;
+			children = (
+				A357795113C1CEFB00FB8809 /* LRBindableObjects */,
+				A357796413C1CEFB00FB8809 /* LRBindableObjectsTests */,
+				A357794E13C1CEFB00FB8809 /* Frameworks */,
+				A357794D13C1CEFB00FB8809 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A357794D13C1CEFB00FB8809 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A357794C13C1CEFB00FB8809 /* libLRBindableObjects.a */,
+				A357795913C1CEFB00FB8809 /* LRBindableObjectsTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A357794E13C1CEFB00FB8809 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A357794F13C1CEFB00FB8809 /* Foundation.framework */,
+				A357795A13C1CEFB00FB8809 /* SenTestingKit.framework */,
+				A357795C13C1CEFB00FB8809 /* UIKit.framework */,
+				A357795F13C1CEFB00FB8809 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A357795113C1CEFB00FB8809 /* LRBindableObjects */ = {
+			isa = PBXGroup;
+			children = (
+				A357795213C1CEFB00FB8809 /* Supporting Files */,
+			);
+			path = LRBindableObjects;
+			sourceTree = "<group>";
+		};
+		A357795213C1CEFB00FB8809 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A357795313C1CEFB00FB8809 /* LRBindableObjects-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A357796413C1CEFB00FB8809 /* LRBindableObjectsTests */ = {
+			isa = PBXGroup;
+			children = (
+				A357796A13C1CEFB00FB8809 /* LRBindableObjectsTests.h */,
+				A357796C13C1CEFB00FB8809 /* LRBindableObjectsTests.m */,
+				A357796513C1CEFB00FB8809 /* Supporting Files */,
+			);
+			path = LRBindableObjectsTests;
+			sourceTree = "<group>";
+		};
+		A357796513C1CEFB00FB8809 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A357796613C1CEFB00FB8809 /* LRBindableObjectsTests-Info.plist */,
+				A357796713C1CEFB00FB8809 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A357794A13C1CEFB00FB8809 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A357794B13C1CEFB00FB8809 /* LRBindableObjects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A357797013C1CEFB00FB8809 /* Build configuration list for PBXNativeTarget "LRBindableObjects" */;
+			buildPhases = (
+				A357794813C1CEFB00FB8809 /* Sources */,
+				A357794913C1CEFB00FB8809 /* Frameworks */,
+				A357794A13C1CEFB00FB8809 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LRBindableObjects;
+			productName = LRBindableObjects;
+			productReference = A357794C13C1CEFB00FB8809 /* libLRBindableObjects.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A357795813C1CEFB00FB8809 /* LRBindableObjectsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A357797313C1CEFB00FB8809 /* Build configuration list for PBXNativeTarget "LRBindableObjectsTests" */;
+			buildPhases = (
+				A357795413C1CEFB00FB8809 /* Sources */,
+				A357795513C1CEFB00FB8809 /* Frameworks */,
+				A357795613C1CEFB00FB8809 /* Resources */,
+				A357795713C1CEFB00FB8809 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A357796213C1CEFB00FB8809 /* PBXTargetDependency */,
+			);
+			name = LRBindableObjectsTests;
+			productName = LRBindableObjectsTests;
+			productReference = A357795913C1CEFB00FB8809 /* LRBindableObjectsTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A357794313C1CEFB00FB8809 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "LJR Software Limited";
+			};
+			buildConfigurationList = A357794613C1CEFB00FB8809 /* Build configuration list for PBXProject "LRBindableObjects" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A357794113C1CEFB00FB8809;
+			productRefGroup = A357794D13C1CEFB00FB8809 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A357794B13C1CEFB00FB8809 /* LRBindableObjects */,
+				A357795813C1CEFB00FB8809 /* LRBindableObjectsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A357795613C1CEFB00FB8809 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A357796913C1CEFB00FB8809 /* InfoPlist.strings in Resources */,
+				A357796B13C1CEFB00FB8809 /* LRBindableObjectsTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A357795713C1CEFB00FB8809 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A357794813C1CEFB00FB8809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A357795413C1CEFB00FB8809 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A357796D13C1CEFB00FB8809 /* LRBindableObjectsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A357796213C1CEFB00FB8809 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A357794B13C1CEFB00FB8809 /* LRBindableObjects */;
+			targetProxy = A357796113C1CEFB00FB8809 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A357796713C1CEFB00FB8809 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A357796813C1CEFB00FB8809 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A357796E13C1CEFB00FB8809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A357796F13C1CEFB00FB8809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A357797113C1CEFB00FB8809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LRBindableObjects.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LRBindableObjects/LRBindableObjects-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		A357797213C1CEFB00FB8809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/LRBindableObjects.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LRBindableObjects/LRBindableObjects-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		A357797413C1CEFB00FB8809 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LRBindableObjects/LRBindableObjects-Prefix.pch";
+				INFOPLIST_FILE = "LRBindableObjectsTests/LRBindableObjectsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A357797513C1CEFB00FB8809 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LRBindableObjects/LRBindableObjects-Prefix.pch";
+				INFOPLIST_FILE = "LRBindableObjectsTests/LRBindableObjectsTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A357794613C1CEFB00FB8809 /* Build configuration list for PBXProject "LRBindableObjects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A357796E13C1CEFB00FB8809 /* Debug */,
+				A357796F13C1CEFB00FB8809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A357797013C1CEFB00FB8809 /* Build configuration list for PBXNativeTarget "LRBindableObjects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A357797113C1CEFB00FB8809 /* Debug */,
+				A357797213C1CEFB00FB8809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A357797313C1CEFB00FB8809 /* Build configuration list for PBXNativeTarget "LRBindableObjectsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A357797413C1CEFB00FB8809 /* Debug */,
+				A357797513C1CEFB00FB8809 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A357794313C1CEFB00FB8809 /* Project object */;
+}
